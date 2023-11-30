@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--primary-color: #666;
+	--light-color: #666;
+	--font-color: #222;
+}
+
+body {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	line-height: 1.5;
+	color: var(--font-color);
+}
+
+a {
+	color: inherit;
+	text-underline-offset: 0.1rem;
+}
+
+h1 {
+	margin-bottom: 1rem;
+}
+
+h1,
+h2 {
+	line-height: 1.2;
+}
+
+button {
+	font-family: inherit;
+	border: none;
+	font-size: inherit;
+	cursor: pointer;
+	color: inherit;
+	background: none;
+	padding: 0;
+	text-underline-offset: 0.1rem;
+}
+
+.button {
+	padding: 0.2rem 0.4rem;
+	background-color: var(--primary-color);
+	color: white;
+}
+
+input {
+	font-family: inherit;
+	padding: 0.4rem;
+	font-size: inherit;
+	border: 0.1rem solid var(--light-color);
+}
